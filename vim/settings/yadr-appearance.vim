@@ -27,5 +27,6 @@ else
   end
 endif
 
-colorscheme solarized
-set background=dark
+ colorscheme PaperColor
+set background=light
+"hi! LineNr guibg=#BDBDBD guifg=#F4F4F4
