@@ -1,6 +1,6 @@
 " Make it beautiful - colors and fonts
 
-if has("gui_running")
+if (1)
   "tell the term has 256 colors
   set t_Co=256
 
@@ -13,9 +13,9 @@ if has("gui_running")
   set columns=190
 
   if has("gui_gtk2")
-    set guifont=Inconsolata\ XL\ 12,Inconsolata\ 15,Monaco\ 12
+    set guifont=Monaco\ 10
   else
-    set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
+    set guifont=Inconsolata\ XL\ 17,Inconsolata\ 20,Monaco\ 17
   end
 else
   let g:CSApprox_loaded = 1
@@ -29,4 +29,3 @@ endif
 
  colorscheme PaperColor
 set background=light
-"hi! LineNr guibg=#BDBDBD guifg=#F4F4F4
